@@ -1,12 +1,3 @@
-echo "# beginer.quiz.game" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/montelev/beginer.quiz.game.git
-git push -u origin main
-
-
 print("Welcome to my anime quiz!")
 
 playing = input("Do you want to play? ")
